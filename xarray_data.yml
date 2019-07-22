@@ -1,0 +1,25 @@
+sources:
+  great_lakes:
+    description: Lake Ontario
+    driver: netcdf
+    args:
+      urlpath: 'http://opendap.co-ops.nos.noaa.gov/thredds/dodsC/NOAA/LOOFS/MODELS/201903/glofs.loofs.fields.forecast.20190320.t06z.nc'
+
+  coawst:
+    description: COAWST
+    driver: netcdf
+    args:
+      urlpath: 'http://gamone.whoi.edu/thredds/dodsC/coawst_4/use/fmrc/coawst_4_use_best.ncd'
+
+  hrrr:
+    description: HRRR
+    driver: netcdf
+    args:
+      urlpath: 'http://thredds-jetstream.unidata.ucar.edu/thredds/dodsC/grib/NCEP/HRRR/CONUS_2p5km/Best'
+
+  gfs:
+    description: Global Forecast System 
+    driver: netcdf
+    args:
+      urlpath: 'http://thredds.ucar.edu/thredds/dodsC/grib/NCEP/WW3/Global/Best'
+
