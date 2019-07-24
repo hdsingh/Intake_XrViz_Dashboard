@@ -3,7 +3,7 @@ sources:
     description: Lake Ontario
     driver: netcdf
     args:
-      urlpath: 'http://opendap.co-ops.nos.noaa.gov/thredds/dodsC/NOAA/LOOFS/MODELS/201903/glofs.loofs.fields.forecast.20190320.t06z.nc'
+      urlpath: 'http://opendap.co-ops.nos.noaa.gov/thredds/dodsC/NOAA/LOOFS/MODELS/201907/glofs.loofs.fields.forecast.20190720.t06z.nc'
 
   coawst:
     description: COAWST
