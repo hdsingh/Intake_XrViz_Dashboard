@@ -2,6 +2,7 @@ name: intake_xrviz
 channels:
   - conda-forge
 dependencies:
+  - nodejs
   - intake
   - intake-xarray
   - pip
@@ -9,6 +10,5 @@ dependencies:
        - "--editable=git+https://github.com/intake/xrviz@master#egg=intake_xrviz"
   - metpy
   - geoviews
-  - nodejs
   - jupyter=1.0.0
   - jupyterlab=1.0.2
