@@ -12,8 +12,8 @@ sources:
       urlpath: 'http://thredds-jetstream.unidata.ucar.edu/thredds/dodsC/grib/NCEP/HRRR/CONUS_2p5km/Best'
 
   gfs:
-    description: Global Forecast System 
+    description: Regional_US_East_Coast 
     driver: netcdf
     args:
-      urlpath: 'http://thredds.ucar.edu/thredds/dodsC/grib/NCEP/WW3/Global/Best'
+      urlpath: 'http://thredds-jetstream.unidata.ucar.edu/thredds/dodsC/grib/NCEP/WW3/Regional_US_East_Coast/Best'
 
