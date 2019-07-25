@@ -2,9 +2,9 @@ name: intake_xrviz
 channels:
   - conda-forge
 dependencies:
-  - nodejs
   - intake
   - intake-xarray
+  - nodejs
   - pip
   - pip:
        - "--editable=git+https://github.com/intake/xrviz@master#egg=intake_xrviz"
