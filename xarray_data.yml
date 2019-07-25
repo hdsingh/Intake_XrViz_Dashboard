@@ -5,12 +5,6 @@ sources:
     args:
       urlpath: 'http://opendap.co-ops.nos.noaa.gov/thredds/dodsC/NOAA/LOOFS/MODELS/201907/glofs.loofs.fields.forecast.20190720.t06z.nc'
 
-  coawst:
-    description: COAWST
-    driver: netcdf
-    args:
-      urlpath: 'http://gamone.whoi.edu/thredds/dodsC/coawst_4/use/fmrc/coawst_4_use_best.ncd'
-
   hrrr:
     description: HRRR
     driver: netcdf
